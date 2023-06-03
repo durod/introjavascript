@@ -158,3 +158,53 @@ header {
 .logosfooter span {
   background-color: aqua;
 }
+
+
+
+/*  QUERIES PARA MOVIL  */
+
+@media (max-width: 767px) {
+  .grid-container{
+    display: grid;
+    grid-template-areas:
+    "header "    
+    "main"
+    "footer";
+    grid-template-columns: auto;
+  }
+
+  .cajapintura h2{
+    text-align: center;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100vh;
+  }
+  .cajamain{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .producto{
+    height: 61%;
+  }
+
+  .cajaresumen{
+    margin-top: 20px;
+  }
+
+  .resumencompra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .compraresumendiv{
+    height: 82%;
+    padding: 6px;
+  }
+
+  
+}
