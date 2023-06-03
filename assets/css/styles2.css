@@ -135,6 +135,15 @@ header {
     width: 21rem;
     border: 1px solid black;
 }
+
+.pcantidad{
+  font-size: x-large;
+  margin-top: 5px;
+}
+
+.ptotal{
+  font-size: x-large;
+}
  
 .logosfooter {
   display: flex;

@@ -30,8 +30,8 @@ const colorInput = document.getElementById('colorInput');
                 <h4>Resumen de la compra:</h4>
                 <p>Color: <span style="background-color: ${color}; color: white;">${color}</span></p>
                 <div style="background-color: ${color}; width: 3rem; height: 3rem; border-radius:25px"; ></div>
-                <p>Cantidad: ${cantidad}</p>
-                <p>Total: ${total}$</p>
+                <p class="pcantidad">Cantidad: ${cantidad}</p>
+                <p class="ptotal">Total: ${total}$</p>
                 <button id="btncalcular">Comprar</button>
                 </div>
             `;
