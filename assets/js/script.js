@@ -1,12 +1,12 @@
 const colorInput = document.getElementById('colorInput');
         const pinturaDiv = document.getElementById('pintura');
         
-        // Agregar un evento al input para capturar el cambio de valor
+       
         colorInput.addEventListener('change', function() {
-            // Obtener el color seleccionado
+            
             const color = colorInput.value;
             
-            // Aplicar el color seleccionado al fondo del div
+           
             pinturaDiv.style.backgroundColor = color;
         });
 
